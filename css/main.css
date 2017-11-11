@@ -1,0 +1,802 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.bacgroundColor{
+    background-color: rgb(40,40,40);
+    height: 41px
+}
+.IconColor{
+    color: white;
+}
+
+.padding{
+    padding:15px 5px; 
+}
+.TopMargin{
+    margin-left: 150px;  
+}
+
+.TopMarginTwo{
+    margin-left: 500px;
+}
+
+.TopMarginThree{
+    margin-left: 50px
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 200px;
+}
+
+.btn-primary {
+    color: #5db442;
+    background-color: #ffffff;
+    border-color: #5db442;
+    width: 120px;
+    border-radius: 20px;
+    margin: 10px 50px;
+    font-size: 12px;
+
+
+}
+
+.btn-primary:hover{
+    color: #5db442;
+    background-color: #ffffff;  
+    border-color: #5db442;
+}
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    margin: 0px -15px;
+    padding: 15px;
+
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+}
+
+.TextOne{
+    margin-top: 100px;
+    text-align: center;
+    font-size:36px;
+    font-family:  roboto-light;
+}
+.textTwo{
+    text-align: center;
+    font-family: roboto-light;
+}
+
+.imgOne{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.slide{
+    background-color: rgb(76,161,104);
+    height: 733px;
+
+}
+
+.emailColor{
+    background-color: white;
+    height: 120px;
+
+}
+.formMargin{
+    margin: 30px 400px 10px;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 100px;
+    margin-bottom: 0;
+    border-radius: 31px;
+}
+.form-control {
+    display: block;
+    width:  100px;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+
+}
+.form-inline .input-group > .form-control {
+    width: 160px;
+}
+.btn  {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+
+.btn-info {
+    color: #fff;
+    background-color: #5db442;
+
+}
+
+.btn-info:hover{
+    background-color: #5db442;
+}
+.text{
+    text-align: center;
+    font-family: roboto-thin;
+}
+
+/* =====================cummunity part start==========================*/
+.communityImage{
+    background-image:url('../img/cummunity.png');
+    height: 500px
+}
+.comunityParagraph{
+    font-size: 30px;
+    margin-left: 400px;
+    color: white;
+    margin-top:50px; 
+    font-family: roboto-light-thin;
+}
+.communityBackgroundColor{
+    height: 200px;
+    width: 500px;
+    background-color:  #cccccc;
+    margin-left:300px ;
+    opacity: .3;
+
+}
+.communityEditionOne{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 250px;
+
+
+}
+.communityEditionOne:hover{
+    background-color: #ffffff;
+
+}
+.communityEditionTwo{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.communityEditionTwo:hover{
+    background-color: #ffffff;  
+}
+.communityEditionThree{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.communityEditionThree:hover{
+    background-color: #ffffff;  
+}
+.fa-sign-in{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-sign-in:hover{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: #5db442; 
+}
+.fa-chain-broken{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-chain-broken:hover{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: #5db442; 
+}
+.fa-check-square{
+    padding: 25px 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa-check-square:hover{
+    padding: 25px 15px;
+    font-size: 25px;
+    color: #5db442; 
+}
+.textOne{
+
+    color: white;
+    margin-top:2px;
+}
+.fa-angle-up{
+    font-size: 40px;
+    margin-left: 60px;
+    color: #030304;
+    padding: 0px;
+}
+.fa-angle-up:hover{
+    color: white;
+}
+.fa-angle-down{
+    font-size: 40px;
+    color: #030304;
+    padding: 0px;
+}
+.fa-angle-down:hover{
+    color: white;
+}
+#signIn{
+    padding: 0px;
+    color:  #46af25;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.proces{
+    color:#46af25;
+    text-transform: uppercase;
+}
+.user{
+    color: #2171cf;
+}
+
+/* =====================cummunity part end==========================*/
+
+/*=======================Services start====================================*/
+
+.services{
+    margin-top: 100px;
+}
+.fontOne{
+    font-size: 50px;
+    color: #024216;
+    font-family: roboto-light;
+}
+.btn-primaryOne {
+    color: black;
+    /*background-color: #337ab7; */
+    border-color: #ececec; 
+    padding: 7px 30px;
+}
+.btn-primaryOne:hover{
+    background-color: #5db442;
+    color: white;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    border-radius: 20px;
+
+}
+.btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group {
+    margin-left: -18.5px;
+    position: relative; 
+}
+.btnOne{
+    margin-top: 30px;
+}
+.boxMargin{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.basicBox{
+    height: 400px;
+    width: 300px;
+    border: 1px solid #ececec;
+    margin:30px;
+
+
+}
+
+.circleBox{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.circleBox:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+.spacePara{
+    margin-top: 30px;
+}
+.greenColor{
+    color: green;
+}
+.colorAss{
+    color:#cccccc;
+}
+.btn-default_one {
+    color:  black;
+    background-color: white;
+    border-color: #ccc;
+    width: 120px;
+    margin-top: 15px;
+}
+.btn-default_one:hover{
+    color: white;
+    background-color: green;
+    transition: 1s;
+}
+
+/*=======================Services end====================================*/
+
+/*========================feature start================================== */
+
+.featurebackgound{
+    background-color: #ececec;
+    margin-top: 50px;
+}
+.textMargin{
+    margin-top: 50px;
+    font-family: roboto light;
+    font-size: 48px;
+}
+.featureBox{
+    height: 300px;
+    width: 250px;
+    border: 1px solid;
+    border-color: gray;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: white;
+
+}
+.featureBox:hover{
+    background-color: green;
+    color: white;
+}
+.bookIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.bookIcon:hover{
+    background-color: green;
+    color: white;
+}
+.textFeature{
+    font-family: roboto regular;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.textfeaturOne{
+    font-family: roboto light;
+
+}
+.bugIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.bugIcon:hover{
+    background-color: green;
+    color: white;
+}
+.cogsIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.cogsIcon:hover{
+    background-color: green;
+    color: white;
+}
+.externalLinkIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.externalLinkIcon:hover{
+    background-color: green;
+    color: white;
+}
+.coffeeIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.coffeeIcon:hover{
+    color: white;
+}
+.pagelinesIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.pagelinesIcon:hover{
+    color: white;
+}
+.paperPlaneIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.paperPlaneIcon:hover{
+    color: white;
+}
+.folderIcon{
+    font-size: 80px;
+    color: green;
+    margin-left: 65px;
+    margin-top: 30px; 
+}
+.folderIcon:hover{
+    color: white;
+}
+/*========================feature end==================================== */
+
+
+/*======================= footer start==================================== */
+
+.footerSection{
+    background-color: #efefef;
+    margin-top: 80px;
+}
+.textSize{
+    margin-left: 150px;
+    
+}
+.btn_search {
+    display: inline-block;
+    padding: 6px 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid;
+    background-color: green;
+    
+}
+.angleRightIcon{
+    color: white;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.linkDecoration ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: roboto light;
+   
+   
+}
+.linkDecoration {
+     margin: 20px 0px;
+}
+.paragraphpMargin{
+    margin-left: 150px;
+}
+/*======================= footer end==================================== */
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect( 0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+

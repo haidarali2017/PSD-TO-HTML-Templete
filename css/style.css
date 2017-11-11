@@ -1,0 +1,318 @@
+ 
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.bacgroundColor{
+    background-color: rgb(40,40,40);
+    height: 41px
+}
+.IconColor{
+    color: white;
+}
+
+.padding{
+    padding:15px 5px; 
+}
+.TopMargin{
+    margin-left: 150px;  
+}
+
+.TopMarginTwo{
+    margin-left: 500px;
+}
+
+.TopMarginThree{
+    margin-left: 50px
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 200px;
+}
+
+.btn-primary {
+    color: #5db442;
+    background-color: #ffffff;
+    border-color: #5db442;
+    width: 120px;
+    border-radius: 20px;
+    margin: 10px 50px;
+    font-size: 12px;
+
+
+}
+
+.btn-primary:hover{
+    color: #5db442;
+    background-color: #ffffff;  
+    border-color: #5db442;
+}
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    margin: 0px -15px;
+    padding: 15px;
+
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+}
+
+.TextOne{
+    margin-top: 100px;
+    text-align: center;
+    font-size:36px;
+    font-family:  roboto-light;
+}
+.textTwo{
+    text-align: center;
+    font-family: roboto-light;
+}
+
+.imgOne{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.slide{
+    background-color: rgb(76,161,104);
+    height: 733px;
+
+}
+
+.emailColor{
+    background-color: white;
+    height: 120px;
+
+}
+.formMargin{
+    margin: 30px 400px 10px;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 100px;
+    margin-bottom: 0;
+    border-radius: 31px;
+}
+.form-control {
+    display: block;
+    width:  100px;
+    height: 22px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+
+}
+.form-inline .input-group > .form-control {
+    width: 160px;
+}
+.btn  {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+
+.btn-info {
+    color: #fff;
+    background-color: #5db442;
+
+}
+
+.btn-info:hover{
+    background-color: #5db442;
+}
+.text{
+    text-align: center;
+    font-family: roboto-thin;
+}
+
+/* =====================cummunity part start==========================*/
+.communityImage{
+    background-image:url('../img/cummunity.png');
+    height: 500px
+}
+.comunityParagraph{
+    font-size: 30px;
+    margin-left: 400px;
+    color: white;
+    margin-top:50px; 
+    font-family: roboto-light-thin;
+}
+.communityBackgroundColor{
+    height: 200px;
+    width: 500px;
+    background-color:  #cccccc;
+    margin-left:300px ;
+    opacity: .3;
+
+}
+.communityEditionOne{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 250px;
+
+
+}
+.communityEditionOne:hover{
+    background-color: #ffffff;
+
+}
+.communityEditionTwo{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.communityEditionTwo:hover{
+    background-color: #ffffff;  
+}
+.communityEditionThree{
+    height: 80px;
+    width:80px;
+    background-color:  #6c7c3d;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.communityEditionThree:hover{
+    background-color: #ffffff;  
+}
+.fa-sign-in{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-sign-in:hover{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: #5db442; 
+}
+.fa-chain-broken{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: white;
+}
+.fa-chain-broken:hover{
+    padding: 25px 10px;
+    font-size: 30px;
+    color: #5db442; 
+}
+.fa-check-square{
+    padding: 25px 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa-check-square:hover{
+    padding: 25px 15px;
+    font-size: 25px;
+    color: #5db442; 
+}
+.textOne{
+
+    color: white;
+    margin-top:2px;
+}
+.fa-angle-up{
+    font-size: 40px;
+    margin-left: 60px;
+    color: #030304;
+    padding: 0px;
+}
+.fa-angle-up:hover{
+    color: white;
+}
+.fa-angle-down{
+    font-size: 40px;
+    color: #030304;
+    padding: 0px;
+}
+.fa-angle-down:hover{
+    color: white;
+}
+#signIn{
+    padding: 0px;
+    color:  #46af25;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.proces{
+    color:#46af25;
+    text-transform: uppercase;
+}
+.user{
+    color: #2171cf;
+}
+
+/* =====================cummunity part end==========================*/
+
+/*=======================Services start====================================*/
+
+.services{
+    margin-top: 100px;
+}
+.fontOne{
+    font-size: 50px;
+    color: #024216;
+    font-family: roboto-light;
+}
+.btn-primaryOne {
+    color: black;
+    /* background-color: #337ab7; */
+    border-color: #2e6da4;
+
+    .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+        border-radius: 20px;
+    }
+    .btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group {
+        margin-left: 6px;
+    }
+
+    /*=======================Services end====================================*/
+
+
+
+
+
+
+
+
+
+
+
+  
